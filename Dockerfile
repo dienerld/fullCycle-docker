@@ -10,4 +10,4 @@ FROM scratch
 
 COPY --from=Build /home/go/app/main .
 
-CMD [ "main" ]
+CMD [ "./main" ]
